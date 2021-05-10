@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="ICS2O-unit-3-1">
+    <meta name="keywords" content="mths, ics2o">
+    <meta name="author" content="Daniel Pawelko">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" type="image/png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ICS2O-unit-3-1</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Area of a Trapezoid, with JS</h1>
+    <p>
+      <h2>Formulas</h2>
+      <h3>A = [(a+b) / 2] x h</h3>
+      <p>Please enter integers for dimensions:</p>
+      <form action="javascript:userInputClick()">
+        <label for="abase">a base:</label>
+        <input type="number" id="abase-entered" placeholder="e.g. 3">
+        <label for="abase">mm</label>
+        <br>
+        <br>
+        <label for="bbase">b base:</label>
+        <input type="number" id="bbase-entered" placeholder="e.g. 5">
+        <label for="bbase">mm</label>
+        <br>
+        <br>
+        <label for="height">height:</label>
+        <input type="number" id="height-entered" placeholder="e.g. 10">
+        <label for="height">mm</label>
+        <br>
+        <br>
+        <input type="submit" value="Calculate Area">
+      </form>
+    </p>
+    <div id="area"></div>
+  </body>
+</html>
